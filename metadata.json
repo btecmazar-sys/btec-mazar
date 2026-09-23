@@ -1,0 +1,7 @@
+{
+  "name": "دائرة الإحصاءات العامة - التعداد السكاني 2026",
+  "description": "نظام إدارة الباحثين الميدانيين وتخصيص البلوكات وإصدار كتب التكليف للتعداد السكاني 2026 في لواء المزار الجنوبي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

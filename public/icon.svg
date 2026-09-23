@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2b5c"/>
+      <stop offset="100%" stop-color="#071738"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd54f"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle with Gold Border -->
+  <circle cx="256" cy="256" r="246" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="12"/>
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6,6" opacity="0.4"/>
+
+  <!-- Jordanian Royal Eagle Crest Silhouette / Header Symbol -->
+  <g transform="translate(256, 120) scale(1.1)">
+    <!-- Crown -->
+    <path d="M-22,-45 L-30,-22 L-10,-30 L0,-48 L10,-30 L30,-22 L22,-45 Z" fill="url(#goldGrad)"/>
+    <circle cx="0" cy="-52" r="3.5" fill="#fef08a"/>
+    <!-- Eagle Wings -->
+    <path d="M0,-20 C-25,-35 -70,-25 -85,15 C-65,5 -40,15 -25,25 C-40,32 -60,42 -75,60 C-50,48 -25,48 0,38 C25,48 50,48 75,60 C60,42 40,32 25,25 C40,15 65,5 85,15 C70,-25 25,-35 0,-20 Z" fill="url(#goldGrad)"/>
+    <!-- Eagle Body & Head -->
+    <circle cx="0" cy="-12" r="10" fill="url(#goldGrad)"/>
+    <path d="M-6,-12 L-10,-10 L-6,-8 Z" fill="#ffffff"/>
+    <path d="M-8,-2 L8,-2 L5,26 L-5,26 Z" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- 3D Statistical Bar Chart Pillars -->
+  <g transform="translate(136, 250)">
+    <!-- Bar 1 -->
+    <rect x="0" y="60" width="46" height="80" rx="6" fill="url(#bar1)"/>
+    <!-- Bar 2 -->
+    <rect x="68" y="25" width="46" height="115" rx="6" fill="url(#bar2)"/>
+    <!-- Bar 3 -->
+    <rect x="136" y="0" width="46" height="140" rx="6" fill="url(#bar3)"/>
+    <!-- Trend Line -->
+    <path d="M23,55 Q91,15 159,-8" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="23" cy="55" r="7" fill="#ffffff"/>
+    <circle cx="91" cy="20" r="7" fill="#ffffff"/>
+    <circle cx="159" cy="-8" r="7" fill="#ffffff"/>
+  </g>
+
+  <!-- Typography DOS & 2026 -->
+  <text x="256" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="34" fill="#ffffff" letter-spacing="3">دائرة الإحصاءات العامة</text>
+  <text x="256" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="22" fill="#ffd54f" letter-spacing="2">التعداد السكاني 2026 • مركز مؤتة</text>
+</svg>
